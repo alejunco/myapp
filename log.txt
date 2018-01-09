@@ -1,4 +1,4 @@
-00:23:43:044 starting app...
-00:23:43:059 autoUpdater.autoDownload: true
-00:23:43:060 autoUpdater.currentVersion: 0.3.1
-00:23:43:060 autoUpdater.updateAvailable: false
+00:55:50:918 starting app...
+00:55:50:965 autoUpdater.autoDownload: true
+00:55:50:975 autoUpdater.currentVersion: 0.3.4
+00:55:50:976 autoUpdater.updateAvailable: false
