@@ -1,20 +1,24 @@
 {
   "name": "myapp",
-  "version": "0.3.0",
+  "version": "0.3.4",
   "description": "sample electron build app",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "build --dir"
+    "pack": "build --dir",
+    "build": "build -w",
+    "publish": "build --win -p always"
   },
   "build": {
     "appId": "com.alejunco.myapp",
     "productName": "My App",
-    "publish": [{
-      "provider": "github",
-      "owner": "alejunco",
-      "repo": "myapp"
-    }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "alejunco",
+        "repo": "myapp"
+      }
+    ]
   },
   "repository": {
     "url": "https://github.com/alejunco/myapp"
@@ -22,7 +26,10 @@
   "author": "Alejandro Junco",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.7.10",
+    "electron": "^1.7.10"
+  },
+  "dependencies": {
+    "electron-log": "^2.2.13",
     "electron-updater": "^2.18.2"
   }
 }

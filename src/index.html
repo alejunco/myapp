@@ -9,7 +9,13 @@
 </head>
 
 <body>
-    <h1>My App 0.2.0</h1>
+    <h2 id="myAppId"></h2>
 </body>
+<script>
+    var pjson = require('../package.json');
+    console.log(pjson.version);
+
+    document.getElementById('myAppId').innerHTML = `Release Version ${pjson.version}`;
+</script>
 
 </html>
