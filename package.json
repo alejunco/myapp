@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "sample electron build app",
   "main": "main.js",
   "scripts": {
@@ -8,8 +8,16 @@
     "pack": "build --dir"
   },
   "build": {
-    "appId": "com.ajunco.myapp",
-    "productName": "My App"
+    "appId": "com.alejunco.myapp",
+    "productName": "My App",
+    "publish": [{
+      "provider": "github",
+      "owner": "alejunco",
+      "repo": "myapp"
+    }]
+  },
+  "repository": {
+    "url": "https://github.com/alejunco/myapp"
   },
   "author": "Alejandro Junco",
   "license": "ISC",
