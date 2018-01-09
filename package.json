@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "sample electron build app",
   "main": "main.js",
   "scripts": {
@@ -30,7 +30,21 @@
     "electron-builder": "^19.52.1"
   },
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.12",
+    "angular": "~1.5.3",
+    "angular-animate": "~1.5.3",
+    "angular-aria": "~1.5.3",
+    "angular-cookies": "~1.5.3",
+    "angular-material": "~1.0.0",
+    "angular-messages": "~1.5.3",
+    "angular-sanitize": "~1.5.3",
+    "animate.css": "~3.4.0",
     "electron-log": "^2.2.13",
-    "electron-updater": "^2.18.2"
+    "electron-reload": "^1.2.2",
+    "electron-updater": "^2.18.2",
+    "jquery": "~2.1.4",
+    "material-design-icons": "^3.0.1",
+    "moment": "~2.10.6",
+    "roboto-slab-fontface-kit": "^1.0.2"
   }
 }

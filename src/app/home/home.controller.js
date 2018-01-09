@@ -9,7 +9,7 @@
 
     function HomeController($log) {
         var vm = this;
-        vm.title = 'Hello from Home Controller';
+        vm.title = 'Hello from AngularJS Home Controller';
 
         activate();
 

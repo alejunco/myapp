@@ -1,5 +1,5 @@
 (function () {
     'use strict';
 
-    angular.module('myapp', ['ui.router']);
+    angular.module('myapp', ['ngCookies', 'ngSanitize', 'ngMessages', 'ngAria', 'ui.router', 'ngMaterial']);
 })();
